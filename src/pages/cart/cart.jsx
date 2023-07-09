@@ -23,7 +23,7 @@ export const Cart = () => {
 
         <div className="checkout">
             <p>Subtotal: ${total}</p>
-            <button onClick={() => navigate("/")}>Continue Shopping</button>
+            <button onClick={() => navigate("/beginnershop/")}>Continue Shopping</button>
             <button>Checkout</button>
         </div>
     </div>
